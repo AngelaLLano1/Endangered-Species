@@ -1,0 +1,741 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Economica');
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+     }
+ 
+    
+    /*
+    
+    h1 {
+        color:white;
+         font-family: 'Lemonada', cursive;
+         background-color: grey;
+    }
+*/
+       
+    nav {
+        display: flex;
+        font-family: 'Lemonada', cursive;
+        position:fixed;
+        justify-content:space-between;
+       top:0;
+       right:0;
+       left:0;
+    }
+   /* This part of css is applied to 
+   the home page.(root page/index.html)
+   */
+    
+    .navbar {
+     display: flex;
+	justify-content: space-between;
+	width:100%;
+        }
+    
+   
+    .logo {
+        display: flex;
+        align-items:flex-start;
+        border:;
+        background-color:#d8e4eb;
+        padding: 20px 0px 5px 10px;
+        margin-right: 0px;
+         }
+   
+    .logo img{
+        padding-bottom: 10px;
+        border-radius:20%;
+        
+          }
+    
+h1{
+    display: flex;
+    align-items:center;
+    padding:5px 1px 1px 2px; 
+}
+    
+    .navbar ul {
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        /*border-:1px solid #c1d9d2;
+        */
+        width:100%;
+        font-size: 25px;
+        background-color:#D8E4EB;
+        padding-top: 0;
+        }
+        nav li {
+        list-style:none;
+	    display: flex;
+	    justify-content: space-between;
+    color: black;
+        }
+     .home-brand {
+    display: flex;
+    height: 800px;
+    background-size:cover;
+    background-image: url(images/forest.jpg);
+    justify-content:flex-start;
+    
+} 
+
+    .brand{
+        
+    display: flex;
+    justify-content:center;
+    width: 375px;
+    margin-left:5px;
+    margin-bottom: 400px;
+    padding:20px 10px 5px 15px;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 1em;
+    color:#d8e4eb;
+    border-radius:10%;
+    }
+        
+       
+        
+    
+      
+   /*
+   This part of css is applied to the 
+   endangered.html page.
+   */
+   
+   .endangered-brand{
+    display:flex;
+    height: 800px;
+    background-size: cover;
+    background-image: url(images/cheetah1.jpg);
+    justify-content:flex-start;
+    
+   }
+   
+   .endangered {
+       display:flex;
+        flex-wrap:wrap;
+        align-content:center;
+        font-family:'Glass Antiqua', cursive;
+        font-size: 20px;
+        width: 400px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        color:#d8e4eb;
+   }
+
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    border-top:solid 1px; black;
+    background-color: #d8e4eb;
+   }
+.card-content{
+     display:flex;
+     flex-wrap:wrap;
+     justify-content:space-around;
+ }
+
+.card { 
+    width: 300px;
+    margin: 10px;
+    
+}
+ .card-title {
+     font-size: 30px;
+     text-align: center;
+     margin:10px;
+     padding:5px;
+     align-self:flex-end;
+     
+ } 
+ 
+ 
+ 
+ /* css for gorilla html page*/
+ 
+ 
+ .gorilla-container{
+     display:flex;
+     background-color:#848473;
+ }
+ 
+ .gorilla-image{
+     width:55%;
+     margin-top:150px;
+ }
+ 
+ .gorilla-image img{
+     width:100%;
+     
+ }
+ 
+ 
+ /*css style for eagle page*/
+ 
+ .eagle-container{
+     display:flex;
+     background-color:#fff5ea;
+ }
+ 
+ 
+ 
+ /*css style for elephant page*/
+ 
+ .elephant-container{
+     display:flex;
+     background-color: #B0c075; 
+ }
+ 
+ .elephant-image{
+     width:60%;
+     margin-top:150px;
+ }
+ 
+ .elephant-image img{
+     width:100%;
+ }
+ 
+ 
+ 
+ /*css for orangutan page*/
+ 
+ .orangutan-container{
+     display: flex;
+     background-color:#b0401e;
+ }
+ 
+ /*css for polar-bear page*/
+ 
+ .polar-bear-container{
+     display: flex;
+     background-color:#8e99a4;
+     
+ }
+ .polar-bear-image{
+     width:60%;
+     margin-top:150px;
+     
+ }
+ .polar-bear-image img{
+     width:100%;
+ }
+ 
+ /*css for rhino page*/
+ 
+ .rhino-container{
+     display:flex;
+     background-color:#5e585a;
+ }
+ 
+ /* css for snow-leopard page*/
+ 
+ .snow-leopard-container{
+     display:flex;
+     background-color: #1f2534;
+ }
+ .snow-leopard-image{
+     width:55%;
+     margin-top:150px;
+ }
+ 
+ .snow-leopard-image img{
+     width:100%;
+     
+ }
+ 
+ 
+ /*css for tiger page*/
+ 
+ .tiger-container{
+     display: flex;
+     background-color:#1b253d;
+ }
+ 
+ /*css for whale page*/
+ 
+ .whale-container{
+     display: flex;
+     background-color: #215899;
+ }
+
+
+/*
+The following css style is applied to the 
+about-animal html page file. */
+
+.content {
+    display: flex;
+    width: 100%;
+    margin-top:200px;
+    justify-content:center;
+    padding:20px;
+    background-color: #fff5ea;
+    
+}
+
+.panda-container{
+    display:flex;
+    align-self:flex-start;
+    background-color:#667378;
+}
+
+.card-image1 {
+  width:57%;
+  margin-top:150px;
+  
+  
+}
+
+.card-image1 img{
+    width:100%;
+    
+}
+
+.content-animal {
+    display:flex;
+    width:60%;
+    margin-top:150px;
+    padding-top: 10px;
+    justify-content:center;
+
+    }
+    
+    }
+     .content h1 {
+        width: 100%;
+        justify-content:center;
+        border:solid 1px black;
+        margin-bottom: 2px;
+    }
+    
+    
+    .animal-text {
+        margin-top: -1px;
+        margin-left:4px;
+        margin-bottom:4px;
+        text-align: justify;
+        padding-right:px;
+        width:100%;
+        box-sizing: content-box;
+        display: flex-start;
+        background-color:#fff5ea;
+     font-family:'Roboto', sans-serif; 
+     font-size:23px;
+     
+     }
+     .card-content h2{
+         margin-top: 100px;
+         padding-top: 45px;
+     }
+     
+     .animal-heading{
+         
+      display: flex;
+     flex-wrap:wrap;
+    height: 400px;
+    background-size:cover;
+    background-image: url(images/tiger.jpg);
+    border:solid black 10px;
+    border-top: solid black 40px; 
+         }
+         .text3{
+             display:flex;
+             flex-wrap:wrap;
+             text-align: justify;
+             font-family:'Roboto', sans-serif; 
+     font-size:30px;
+     background-color:#d8e4eb;
+         }
+    
+
+
+.card-image3 {
+margin-top: 150px;
+    width:%;
+    padding:10px;
+    border:1px solid black;
+}
+   .card-image3 img{
+       width: 100%;
+   }
+    .card-content p{ 
+     
+    font-family:'Economica',sans-serif;
+    font-size:20px ;
+   }
+   
+   /*css for the about-us page*/
+   
+   
+   .about-brand{
+     display: flex;
+     flex-wrap:wrap;
+    height: 800px;
+    background-size:cover;
+    background-image: url(images/giraffe.jpeg);
+         }
+     
+     .about{
+     display: flex;
+    justify-content:center;
+    width: 375px;
+    margin-top:200px;
+    margin-left:80px;
+    margin-bottom: 300px;
+    padding:20px 10px 5px 15px;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 3em;
+    color:black;
+    border-radius:10%;
+         
+     }
+    .us-image {
+       width:100%;
+       margin-top:15px;
+   }
+   .us-image img{
+       width: 100%;
+   }
+   
+    .about-image{
+       width:25%; 
+    } 
+   
+   .about-image img{
+       width:100%;
+   }
+   
+   .about-container{
+       display:flex;
+       flex-direction:;
+       justify-content:flex-start;
+       align-items:baseline;
+       margin-bottom: auto;
+       background-color: #804e33;
+   }
+   
+   
+   .about-text{
+       display:flex;
+       align-self:flex-start;
+       flex:wrap;
+       margin-top:12px;
+        margin-left:4px;
+        margin-bottom:4px;
+        text-align: justify;
+        padding-right:px;
+        width:100%;
+        box-sizing: content-box;
+        display: flex-start;
+        background-color:#fff5ea;
+     font-family:'Roboto', sans-serif; 
+     font-size:23px;
+       
+     
+   }
+   
+   .test-container{
+       display:flex;
+   }
+   .about-text2{
+       display:flex;
+      margin-top: -1px;
+        margin-left:4px;
+        margin-bottom:4px;
+        text-align: justify;
+        padding-right:px;
+        width:100%;
+        box-sizing: content-box;
+        display: flex-start;
+        background-color:#fff5ea;
+     font-family:'Roboto', sans-serif; 
+     font-size:23px;
+    
+   }
+   
+   
+   /*CSS for How to help page */
+   
+   .bear-container{
+       display:flex;
+       flex-direction:row;
+       justify-content:flex-start;
+       align-items:baseline;
+     /*margin-top: 150px;*/
+     margin-bottom:15px;
+   }
+   
+    .bear-image{
+        width:44%;
+        margin-top: 1px;
+        
+            }
+    .bear-image img{
+        width: 100%;
+    } 
+    
+    
+    
+    
+    .frame{
+        diplay:flex-start;
+        width:100%;
+        margin-left:10px;
+    }
+    
+    .bear-text{
+        margin-top: 150px;
+        width: 100%;
+        text-align:center;
+        border:1px solid black;
+        background-image: url(images/grizzly-bear.jpg);
+        background-size: cover;
+        height:800px;
+        color:#d8e4eb;
+        font-size:40px;
+    }
+    
+    .bear-text2{
+        width:100;
+        margin-top: 45px;
+        border:1px solid black;
+        
+    }
+   
+   /*This css is applied to the donations page */
+   
+   
+   .donations {
+    display: flex;
+    height: 800px;
+    background-size: cover;
+    background-image: url(images/female-lion.jpeg);
+    justify-content:flex-wrap;
+    
+}
+
+.quote {
+    display: flex;
+    justify-content:center;
+    width: 375px;
+    margin-top:200px;
+    margin-left:80px;
+    margin-bottom: 300px;
+    padding:20px 10px 5px 15px;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 3em;
+    color:black;
+    border-radius:10%;
+    }
+   
+    
+    .quote p {
+        box-shadow: 2px black;
+    }
+    
+    .account-info-container {
+        display: flex;
+        justify-content:center;
+        background-color:#9bb656;
+        height:350px;
+        padding:30px;
+    }
+    
+    .bill-info h1{
+        font-size: 25px;
+    }
+    
+    .pay-info h1{
+        font-size:25px;
+    }
+    
+    .form-container{
+        display:flex;
+        display:nowrap;
+        flex-direction:column;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size:20px;
+    }
+    
+    .payment-container{
+        font-family: 'Open Sans Condensed', sans-serif;
+    font-size:20px;
+        
+    }
+    
+    /*This css is applied to the contact page*/
+    
+    .contact-container{
+        display:flex;
+        background-size: cover;
+        background-image: url(images/man-nature.jpeg);
+        height: 800px;
+    
+        
+    }
+    .contact{
+        display:flex;
+        flex-wrap:wrap;
+        align-content:center;
+        font-family:'Glass Antiqua', cursive;
+        font-size: 20px;
+        width: 400px;
+        margin-top: 45px;
+        margin-bottom: 300px;
+    }
+    .information-container{
+        display:flex;
+        flex-wrap:wrap;
+        
+    justify-content:space-between;
+    align-items:;
+    margin:5px;
+    background-color:#d8e4eb;
+
+    }
+    
+    
+    .woman-image{
+        width: 30%;
+    }
+    .woman-image img {
+        width: 100%;
+    }
+    .email-image{
+        width:30%;
+        margin-right:30px;
+        
+        
+    }
+    .email-image img{
+        width: 100%;
+    }
+    .mail-image{
+        width: 30%; 
+    margin-right: 25px;
+    }
+    .mail-image img{
+        width: 100%;
+    }
+    .site-container{
+         display:flex;
+        flex-wrap:wrap;
+    justify-content:space-between;
+    margin:5px;
+    background-color:#d8e4eb;
+    }
+    .site-image{
+        width:45%;
+     margin:5px;
+     padding-left:60px ;
+        
+    }
+    .site-image img{
+        width: 100%;
+    }
+    .tab-image{
+        width: 50%;
+        display: flex;
+         
+    }
+    .tab-image img{
+        width: 100%;
+       
+    }
+    .contact-text{
+        display: flex;
+        flex-wrap:wrap;
+        align-self:flex-start;
+        width: 100%;
+        font-family: 'Open Sans Condensed', sans-serif;
+    font-size:25px; 
+    }
+    
+    
+
+   /*This css is applied to the footer*/
+  
+   
+ .headers {
+     display:flex;
+     background-color: #d8e4eb;
+     }  
+     .sub-head {
+         display:flex;
+         justify-content:space-around;
+         width:100%;
+     }
+
+.support-container {
+    display:flex;
+    justify-content:space-around;
+    margin:;
+    background-color:#d8e4eb;
+    
+        }
+    
+    
+    .meeting-image {
+        width:50%;
+        margin:10px;
+            }
+            .meeting-image img {
+                width:100%;
+            }
+            
+            .rescue-image {
+                width:50%;
+                margin:10px;
+            }
+            .rescue-image img{
+                width: 100%;
+            }
+            .volunteer-image {
+               width:50%;
+               margin:10px;
+            }
+            
+            .volunteer-image img {
+                 width:100%;
+            }
+            
+            
+    
+.text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:25px;
+    
+    }
+    
+.end {
+    display: flex;
+    height: 100px;
+    
+}
+    .end ul{
+   display: flex;
+   align-items:center;
+   justify-content:space-between;
+    font-family: 'Lemonada', cursive;
+    font-size: 25px;
+    border: solid black 1px;
+    background-color: #d8e4eb;
+    width:100%;
+}
+.end li{
+    display: flex;
+    align-items:space-around;
+   
+}
+
